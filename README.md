@@ -1,6 +1,6 @@
-# Remote Support — unpublished draft
+# Remote Support
 
-This release has not been published. The Windows helper runs from an administrator PowerShell or a SYSTEM command shell. Sessions require separately issued, short-lived credentials; the release includes none.
+Release 0.1.5 is published on this repository's Releases page. The Windows helper runs from an administrator PowerShell or a SYSTEM command shell. Sessions require separately issued, short-lived credentials; the release includes none.
 
 ## Installation
 
