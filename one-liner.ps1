@@ -1,7 +1,7 @@
 & {
     $ErrorActionPreference = 'Stop';
-    $url = [uri]'https://github.com/shreeve1/remote-support/releases/download/v0.1.5/remote-support-0.1.5.zip';
-    $sha = '0bda8d76d4f297bbcf02d627c0f38d3059f158bf4f39f89c615db1934a7d09d3';
+    $url = [uri]'https://github.com/shreeve1/remote-support/releases/download/v0.1.6/remote-support-0.1.6.zip';
+    $sha = 'bc6e590ee291303dfd5c9abd8e433edf32e9b601d8bd06251cd898cd8d8790c0';
     $id = [Security.Principal.WindowsIdentity]::GetCurrent();
     if (-not ($id.IsSystem -or ([Security.Principal.WindowsPrincipal]$id).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator))) { [Console]::Error.WriteLine('Run this command in an administrator PowerShell or as SYSTEM.'); exit 1 };
     $owned = $false; $client = $null; $stream = $null; $tls = $null; $failed = $false;
